@@ -28,9 +28,9 @@ const Form = () => {
       title: "Success!",
       icon: "success",
       html:
-        `<h5>Name: ${data.name}</h5>` +
-        `<h5>Email: ${data.email}</h5>` +
-        `<p>Coments: ${data.coment}</p>`,
+        `<h5>Name: ${newData.name}</h5>` +
+        `<h5>Email: ${newData.email}</h5>` +
+        `<p>Coments: ${newData.coment}</p>`,
       confirmButtonText: "Cool",
     });
   };
